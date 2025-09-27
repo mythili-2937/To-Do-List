@@ -1,0 +1,124 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ff8ac6, #c084fc);
+  margin: 0;
+  padding: 0;
+  color: #4b006e;
+}
+
+.container {
+  background: #fff;
+  /* background-image: url(cloud.jpg); */
+  background-position: top;
+  margin: 65px auto;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section select {
+  padding: 15px;
+  border: 2px solid #c084fc;
+  border-radius: 8px;
+  font-size: 16px;
+  flex: 1;
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #fa71cd, #c471f5);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(250, 113, 205, 0.5);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border-color: #f8a4e1;
+}
+
+button:hover {
+  background-color: #f75aa0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgb(254, 242, 254);
+  margin-bottom: 10px;
+  
+  padding: 12px;
+  border-radius: 8px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.deadline {
+  font-size: 12px;
+  color: #555;
+}
+
+.priority-low {
+  border-left: 15px solid #35f87d;
+}
+.priority-medium {
+  border-left: 15px solid #fcd14f;
+}
+.priority-high {
+  border-left: 15px solid #f75454;
+}
+
+.navbar {
+  background-color: white;
+  /* background-image: url(cloud.jpg); */
+  background-position: top;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.navbar a {
+  margin: 0 30px;
+  text-decoration: none;
+  background: linear-gradient(45deg, #fa71cd, #c471f5);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(250, 113, 205, 0.5);
+  transition: transform 0.3s ease;
+}
+input[type="checkbox"] {
+  transform: scale(1.5); /* Increase number for bigger size */
+  margin-right: 10px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  accent-color: rgb(248, 187, 248); 
+}
+
+

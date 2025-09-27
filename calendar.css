@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ff8ac6, #c084fc);
+  margin: 0;
+  padding: 0;
+  color: #4b006e;
+}
+
+.navbar {
+  background-color: white;
+  
+  background-position: top;
+  padding: 30px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 30px;
+  text-decoration: none;
+  background: linear-gradient(45deg, #fa71cd, #c471f5);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(250, 113, 205, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.navbar a.active {
+  color: white;
+  border-bottom: 2px solid #feb8dc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #c084fc;
+  margin-bottom: 30px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.month {
+  background-color: #fce7f3;
+  border: 2px solid #f3c1e4;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.month h2 {
+  text-align: center;
+  color: #a855f7;
+  margin-bottom: 10px;
+}
+
+.weekdays, .dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 14px;
+}
+
+.weekdays div, .dates div {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.weekdays {
+  font-weight: bold;
+  color: #db2777;
+}
+
+.dates div {
+  color: #6b21a8;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.dates div.today {
+  background-color: #f472b6;
+  color: white;
+  font-weight: bold;
+}
